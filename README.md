@@ -2,7 +2,7 @@
 
 # SC-FEGAN
 
-It is a face editing softaware by Youngjoo Jo and Jongyoul Park check the paper in [arXive](https://arxiv.org/abs/1902.06838). It allows editting faces using masks, sketches and colors. The [implementation](https://github.com/JoYoungjoo/SC-FEGAN) is in TensorFlow and I just ported it to work in the browser using javascript and python. The system uses end-to-end convolutional neural network to generate the images taking a batch of four inputs 
+It is a face editing softaware  It allows editting faces using masks, sketches and colors. it uses  TensorFlow and I just ported it to work in the browser using javascript and python. The system uses end-to-end convolutional neural network to generate the images taking a batch of four inputs 
 
 *   **Masked Image** we use a mask to input incomplete image to the generator 
 *   **Sketch** a binary image that represent sketches to guid the generator 
